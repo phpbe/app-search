@@ -1,0 +1,27 @@
+{
+  "name": "be/app-search",
+  "type": "library",
+  "description": "全站搜索",
+  "keywords": [
+    "PHP",
+    "Search",
+    "全站搜索",
+    "Elasticsearch"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "1024i team",
+      "email": "1024i@1024i.com",
+      "homepage": "https://www.1024i.com/team"
+    }
+  ],
+  "require": {
+    "be/be": "~2.7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Be\\App\\Search\\": "src/"
+    }
+  }
+}
